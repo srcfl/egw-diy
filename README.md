@@ -21,9 +21,9 @@ The following unit(s) are purchased directly from Srcful and are necessary for t
 
 - `(x1)` Secure Element Chip - ATECC608B
 
-# Assembly 
+# Assembly (more soon)
 Connect A to B. 
 
-# Firmware update (coming soon)
+# Firmware update (more soon)
 
 Download the latest firmware from [here](#). 
