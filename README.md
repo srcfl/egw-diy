@@ -3,6 +3,8 @@ $${\color{red}This\space is \space a \space draft.\space Do \space not \space fo
 # DIY Energy Gateway
 Embrace your inner tech enthusiast! Because nothing screams DIY more than assembling your own Srcful-compatible Energy Gateway. Gather the components listed below, roll up your sleeves, and get ready for a firmware update and assembly adventure! More about assembly and firmware update further down. May the force be with you!
 
+![Alt text](image.png)
+
 # Bill of Material
 This Bill of Materials outlines the necessary components required for building a Srcful-compatible Energy-Gateway. Items with leading `*` should have `Grove connectors`. 
 
