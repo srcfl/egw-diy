@@ -3,7 +3,7 @@
 This repository contains the Srcful Energy Gateway firmware and documentation. The firmware is compatible with the [Srcful PoS](https://docs.srcful.io/getting-started/using#proof-of-source) and [Helium PoC](https://docs.helium.com/iot/proof-of-coverage/).
 
 ## Getting Started
-
+<div align="center" width="100%">
 <center>
   <table style="border-collapse: collapse" width="150%">
     <tr>
@@ -16,10 +16,12 @@ This repository contains the Srcful Energy Gateway firmware and documentation. T
           <img
             src="resources/egw.png"
             alt="Srcful Gateway"
-            style="width: 200px"
+            style="width=50% height=50%"
           /><br />
-          Srcful PoS compatible.<br /><br /><br /><br />
-          <a href="diy.md">Get started</a>
+          <p align="center">
+            Srcful PoS compatible.<br /><br /><br />
+            <a href="diy.md">Get started</a>
+          </p>
         </center>
       </td>
       <td
@@ -31,16 +33,18 @@ This repository contains the Srcful Energy Gateway firmware and documentation. T
           <img
             src="resources/rak.png"
             alt="RAK Hotspot V2"
-            style="width: 200px"
+            style="width=50% height=50%"
           /><br />
-          Srcful PoS and Helium PoC compatible.<br /><br /><br />
-          <a href="diy-oss.md">Get started</a>
+          <p align="center">
+            Srcful PoS and Helium PoC compatible.<br /><br /><br />
+            <a href="diy-oss.md">Get started</a>
+          </p>
         </center>
       </td>
     </tr>
   </table>
 </center>
-
+</div>
 ## Support
 
 For any questions or issues, please refer to our [Support Guidelines](#) or open an issue in this repository.
