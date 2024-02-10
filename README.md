@@ -1,32 +1,58 @@
+# Srcful Energy Gateway Firmware
 
-$${\color{red}This\space is \space a \space draft.\space Do \space not \space follow!}$$
-# DIY Energy Gateway
-Embrace your inner tech enthusiast! Because nothing screams DIY more than assembling your own Srcful-compatible Energy Gateway. Gather the components listed below, roll up your sleeves, and get ready for a firmware update and assembly adventure! More about assembly and firmware update further down. May the force be with you!
+This repository contains the Srcful Energy Gateway firmware and documentation. The firmware is compatible with the [Srcful PoS](https://docs.srcful.io/getting-started/using#proof-of-source) and [Helium PoC](https://docs.helium.com/iot/proof-of-coverage/).
 
-![Alt text](image.png)
+## Getting Started
 
-# Bill of Material
-This Bill of Materials outlines the necessary components required for building a Srcful-compatible Energy-Gateway. Items with leading `*` should have `Grove connectors`. 
+<center>
+  <table style="border-collapse: collapse" width="100%">
+    <tr>
+      <td
+        valign="top"
+        width="50%"
+        style="border: 5px solid grey; padding: 10px"
+      >
+        <center>
+          <img
+            src="resources/egw.png"
+            alt="Srcful Gateway"
+            style="width: 200px"
+          /><br />
+          Srcful PoS compatible.<br /><br />
+          <a href="diy.md">Get started</a>
+        </center>
+      </td>
+      <td
+        valign="top"
+        width="50%"
+        style="border: 5px solid grey; padding: 10px"
+      >
+        <center>
+          <img
+            src="resources/rak.png"
+            alt="RAK Hotspot V2"
+            style="width: 200px"
+          /><br />
+          Srcful PoS and Helium PoC compatible.<br /><br />
+          <a href="dual-mining.md">Get started</a>
+        </center>
+      </td>
+    </tr>
+  </table>
+</center>
 
+## Support
 
-## Purchased from supplier of choice
-- `(x1)` Raspberry pi 4
-- `(x1)` Raspberry Pi power supply 
-- `(x1)` SD card (at least 32GB), preferably a high/max endurance 
-- `(x1)` Raspberry pi HAT with male grove connectors for `I2C` (x1), `UART` (x1), `GPIO` (x8).
-- `(x1)` * LoRaWAN module (`ASR6501`).
-- `(x1)` * RS-485-TTL module
-- `(x1)` * Neopixel/RGB strip ring
-- `(x4)` Grove cables (Female-Female)
+For any questions or issues, please refer to our [Support Guidelines](#) or open an issue in this repository.
 
-## Purchased from Srcful
-The following unit(s) are purchased directly from Srcful and are necessary for the proper functioning of the gateway. 
+## Contributing
 
-- `(x1)` * Secure Element Chip - ATECC608B
+We welcome contributions! Please refer to our [Contribution Guidelines](#) for more information on how you can contribute.
 
-# Assembly (more soon)
-Connect A to B. 
+## Credits
 
-# Firmware update (more soon)
+Some of the images in this repository are maintained by [NebraLtd](https://github.com/NebraLtd/helium-miner-software).
 
-Download the latest firmware from [here](#). 
+## License
+
+This repository is licensed under the [LICENSE NAME](#). Please read the license agreement carefully before using or contributing to this project.
