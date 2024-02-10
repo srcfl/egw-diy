@@ -5,7 +5,7 @@ This repository contains the Srcful Energy Gateway firmware and documentation. T
 ## Getting Started
 
 <center>
-  <table style="border-collapse: collapse" width="100%">
+  <table style="border-collapse: collapse" width="150%">
     <tr>
       <td
         valign="top"
@@ -18,7 +18,7 @@ This repository contains the Srcful Energy Gateway firmware and documentation. T
             alt="Srcful Gateway"
             style="width: 200px"
           /><br />
-          Srcful PoS compatible.<br /><br />
+          Srcful PoS compatible.<br /><br /><br /><br />
           <a href="diy.md">Get started</a>
         </center>
       </td>
@@ -33,8 +33,8 @@ This repository contains the Srcful Energy Gateway firmware and documentation. T
             alt="RAK Hotspot V2"
             style="width: 200px"
           /><br />
-          Srcful PoS and Helium PoC compatible.<br /><br />
-          <a href="dual-mining.md">Get started</a>
+          Srcful PoS and Helium PoC compatible.<br /><br /><br />
+          <a href="diy-oss.md">Get started</a>
         </center>
       </td>
     </tr>
