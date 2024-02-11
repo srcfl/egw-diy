@@ -45,6 +45,7 @@ This repository contains the Srcful Energy Gateway firmware and documentation. T
   </table>
 </center>
 </div>
+
 ## Support
 
 For any questions or issues, please refer to our [Support Guidelines](#) or open an issue in this repository.
