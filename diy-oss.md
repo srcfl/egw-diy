@@ -104,6 +104,15 @@ git clone git@github.com:srcfl/srcful-gateway.git
 cd srcful-gateway
 ```
 
+### Set the device IP
+The firmware needs the device local ip set to the environment variable `HOST_IP`.
+
+```shell
+export HOST_IP=$(ip -4 addr show scope global dev $(ip route|awk '/default/ { print $5 }') | grep inet | awk '{print $2}' | cut -d / -f 1)
+```
+
+It is likely a good idea to use a static IP for both your inverter and your eGW. Refer to your router manufacturer on how to set this up.
+
 ### Run Docker Compose
 
 The repository contains two different Docker Compose files. The first one is for running the firmware on a `Rak Hotspot Miner V2` and the second one is for running the firmware on a `Raspberry Pi` with a secure element. Regardless of which command you will run, it might take a few minutes to download the necessary Docker images the first time you run it.
