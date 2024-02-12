@@ -13,9 +13,10 @@ This guide will help you get started with the Srcful Energy Gateway. Depending o
 - Download the Raspberry Pi Imager from the [official Raspberry Pi website](https://www.raspberrypi.org/software/).
 - Use it to burn Raspberry Pi OS Lite (64-bit) to an SD card.
 
-### Enable SSH
-
-- Use the Raspberry Pi Imager to enable SSH and Wi-Fi by.
+### Image Configuration
+Use the Raspberry Pi Imager to:
+ - enable SSH
+ - enable WiFi
 
 ### Insert the SD Card and Power On
 
@@ -82,14 +83,26 @@ Add your user to the `docker` group:
 sudo usermod -aG docker $USER
 ```
 
-Now log out and log back in to apply the changes. To log out, run `exit` and then log back in using SSH.
+Now log out and log back in to apply the changes. To log out, run:
+```shell
+exit
+```
 
-Confirm that Docker is running by running `docker run hello-world`. The output should be similar to the following:
+then log back in using SSH.
+
+Confirm that Docker is running by running: 
 
 ```shell
-Hello from Docker!
-This message shows that your installation appears to be working correctly.
+docker run hello-world
 ```
+
+The output should be similar to the following:
+
+
+
+> Hello from Docker!  
+> This message shows that your installation appears to be working correctly.
+
 
 ## Step 3: Running the firmware using Docker Compose
 
@@ -100,9 +113,18 @@ There are two different docker-compose files for running the firmware. The first
 First, you need to clone the repository containing the Docker Compose file. Use the following commands to clone the repository and navigate to the directory:
 
 ```shell
-git clone git@github.com:srcfl/srcful-gateway.git
+git clone https://github.com/srcfl/srcful-gateway.git
 cd srcful-gateway
 ```
+
+### Set the device IP
+The firmware needs the device local ip set to the environment variable `HOST_IP`.
+
+```shell
+export HOST_IP=$(ip -4 addr show scope global dev $(ip route|awk '/default/ { print $5 }') | grep inet | awk '{print $2}' | cut -d / -f 1)
+```
+
+It is likely a good idea to use a static IP for both your inverter and your eGW. Refer to your router manufacturer on how to set this up.
 
 ### Run Docker Compose
 
