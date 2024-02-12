@@ -14,6 +14,7 @@ This repository contains the Srcful Energy Gateway firmware and documentation. T
         style="border: 5px solid grey; padding: 10px"
       >
         <center>
+        <br /><br /><br /><br />
           <img
             src="resources/egw.png"
             alt="Srcful Gateway"
