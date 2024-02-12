@@ -83,14 +83,26 @@ Add your user to the `docker` group:
 sudo usermod -aG docker $USER
 ```
 
-Now log out and log back in to apply the changes. To log out, run `exit` and then log back in using SSH.
+Now log out and log back in to apply the changes. To log out, run:
+```shell
+exit
+```
 
-Confirm that Docker is running by running `docker run hello-world`. The output should be similar to the following:
+then log back in using SSH.
+
+Confirm that Docker is running by running: 
 
 ```shell
-Hello from Docker!
-This message shows that your installation appears to be working correctly.
+docker run hello-world
 ```
+
+The output should be similar to the following:
+
+
+
+> Hello from Docker!  
+> This message shows that your installation appears to be working correctly.
+
 
 ## Step 3: Running the firmware using Docker Compose
 
@@ -101,7 +113,7 @@ There are two different docker-compose files for running the firmware. The first
 First, you need to clone the repository containing the Docker Compose file. Use the following commands to clone the repository and navigate to the directory:
 
 ```shell
-git clone git@github.com:srcfl/srcful-gateway.git
+git clone https://github.com/srcfl/srcful-gateway.git
 cd srcful-gateway
 ```
 
