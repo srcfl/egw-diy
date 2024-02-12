@@ -13,9 +13,10 @@ This guide will help you get started with the Srcful Energy Gateway. Depending o
 - Download the Raspberry Pi Imager from the [official Raspberry Pi website](https://www.raspberrypi.org/software/).
 - Use it to burn Raspberry Pi OS Lite (64-bit) to an SD card.
 
-### Enable SSH
-
-- Use the Raspberry Pi Imager to enable SSH and Wi-Fi by.
+### Image Configuration
+Use the Raspberry Pi Imager to:
+ - enable SSH
+ - enable WiFi
 
 ### Insert the SD Card and Power On
 
