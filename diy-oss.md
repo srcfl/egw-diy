@@ -40,7 +40,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 Restart your Raspberry Pi after the update by running `sudo reboot`.
 
-### Enable i2c for Secure Element
+### Enable i2c and SPI for Secure Element
 
 ```shell
 sudo raspi-config
@@ -49,6 +49,8 @@ sudo raspi-config
 - Select `Interfacing Options`.
 - Select `I2C`.
 - Select `Yes` to enable the ARM I2C interface.
+- Select `SPI`
+- Select `Yes` to enable the SPI interface.
 - Select `Finish` to exit the configuration tool.
 
 ### Install Docker
