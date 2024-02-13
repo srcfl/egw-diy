@@ -38,7 +38,7 @@ Use the Raspberry Pi Imager to:
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 
-Restart your Raspberry Pi after the update by running `sudo reboot`.
+Restart your Raspberry Pi after the update by running `sudo reboot` and then log in again using ssh.
 
 ### Enable i2c and SPI for Secure Element
 
@@ -52,6 +52,22 @@ sudo raspi-config
 - Select `SPI`
 - Select `Yes` to enable the SPI interface.
 - Select `Finish` to exit the configuration tool.
+
+Next, we need to configure the SPI device to use only one channel chip select (cs). Run:
+
+```shell
+sudo nano /boot/firmware/config.txt
+```
+
+Add the following line to the file 
+
+```shell
+dtoverlay=spi0-1cs
+```
+
+Press `ctrl+s` to save and then `ctrl+x` to exit.
+
+Restart your Raspberry Pi after the update by running `sudo reboot` and then log in again using ssh.
 
 ### Install Docker
 
