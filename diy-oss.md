@@ -153,27 +153,13 @@ The repository contains two different Docker Compose files. The first one is for
 If you have a `Rak Hotspot Miner V2`, run the following command:
 
 ```shell
-docker compose -f docker-compose-dual-mining.yml up
+docker compose -f compose-rak.yml up
 ```
 
-To run the firmware in the background, add the `-d` flag:
+To run the firmware in the background (detached), add the `-d` flag:
 
 ```shell
-docker compose -f docker-compose-dual-mining.yml up -d
-```
-
-#### Running the firmware on a `Raspberry Pi` with a secure element
-
-If you have a `Raspberry Pi` with a secure element, run the following command:
-
-```shell
-docker compose -f docker-compose.yml up
-```
-
-To run the firmware in the background, add the `-d` flag:
-
-```shell
-docker compose -f docker-compose.yml up -d
+docker compose -f compose-rak.yml up -d
 ```
 
 ## Step 4: Post-Setup Configuration
