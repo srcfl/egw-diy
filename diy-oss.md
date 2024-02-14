@@ -2,6 +2,8 @@
 
 This guide will help you get started with the Srcful Energy Gateway. Depending on your hardware, you can choose between two different approaches to get started. The first approach is for users who have a `Rak Hotspot Miner V2` and want to dual-mine `IoT` and `SRC`. The second approach is for users who have followed the [Build your own Srcful Energy Gateway](diy.md) guide and want to mine `SRC` only
 
+This guide is for installing the dual mining firmware on a Rak Hotspot Miner V2. It is recommended that you first run the miner with the normal firmware and complete the installation process including checking that it is active before you proceed.
+
 ## Step 1: Preparing the Raspberry Pi
 
 ### Select a Lightweight Linux Distro
