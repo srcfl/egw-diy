@@ -39,7 +39,7 @@ This repository contains the Srcful Energy Gateway firmware and documentation. T
           /><br />
           <p align="center">
             Srcful PoS and Helium PoC compatible.<br /><br /><br />
-            <a href="diy-oss.md">Get started</a>
+            <a href="rak-hotspot-helium-iot-src-dual-mining.md">Get started</a>
           </p>
         </center>
       </td>
