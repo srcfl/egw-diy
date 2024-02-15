@@ -133,7 +133,9 @@ git clone https://github.com/srcfl/srcful-gateway.git
 
 ## Step 3: Running the firmware using Docker Compose
 
-There are two different docker-compose files for running the firmware. The first one is for running the firmware on a `Rak Hotspot Miner V2` and the second one is for running the firmware on a `Raspberry Pi` with a secure element.
+
+
+You are soon there! Now we are ready to start the gateway! These steps should be repeated every time you want to start the gateway. First you need to be in the correct directory and make sure you have the latest version of the firmware:
 
 ```shell
 cd srcful-gateway
