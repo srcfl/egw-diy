@@ -23,4 +23,4 @@ The secure element uses i2c to communicate with the Raspberry Pi. Connect the se
 
 ## Prepare the Raspberry Pi
 
-Once you have connected the secure element to the Raspberry Pi, you can prepare the Raspberry Pi by following this guide: [Getting started with the Srcful Energy Gateway](diy-oss.md)
+Once you have connected the secure element to the Raspberry Pi, you can prepare the Raspberry Pi by following this guide: [Getting started with the Srcful Energy Gateway](rak-hotspot-helium-iot-src-dual-mining.md)
