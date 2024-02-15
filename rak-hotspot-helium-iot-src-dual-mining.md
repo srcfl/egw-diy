@@ -8,7 +8,7 @@ This guide is for installing the dual mining firmware on a `Rak Hotspot Miner V2
 
 ### Select a Lightweight Linux Distro
 
-- Recommended: Raspberry Pi OS Lite (64-bit) for its lightweight nature and compatibility.
+- Recommended: Raspberry Pi OS (64-bit).
 
 ### Download and Use the Raspberry Pi Imager
 
@@ -123,22 +123,25 @@ The output should be similar to the following:
 > Hello from Docker!  
 > This message shows that your installation appears to be working correctly.
 
-
-## Step 3: Running the firmware using Docker Compose
-
-There are two different docker-compose files for running the firmware. The first one is for running the firmware on a `Rak Hotspot Miner V2` and the second one is for running the firmware on a `Raspberry Pi` with a secure element.
-
 ### Clone the GitHub Repository
 
 First, you need to clone the repository containing the Docker Compose file. Use the following commands to clone the repository and navigate to the directory:
 
 ```shell
 git clone https://github.com/srcfl/srcful-gateway.git
+```
+
+## Step 3: Running the firmware using Docker Compose
+
+There are two different docker-compose files for running the firmware. The first one is for running the firmware on a `Rak Hotspot Miner V2` and the second one is for running the firmware on a `Raspberry Pi` with a secure element.
+
+```shell
 cd srcful-gateway
+git pull
 ```
 
 ### Set the device IP
-The firmware needs the device local ip set to the environment variable `HOST_IP`.
+The firmware needs the device local ip set to the environment variable `HOST_IP`:
 
 ```shell
 export HOST_IP=$(ip -4 addr show scope global dev $(ip route|awk '/default/ { print $5 }') | grep inet | awk '{print $2}' | cut -d / -f 1)
