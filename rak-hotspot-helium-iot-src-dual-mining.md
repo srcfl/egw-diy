@@ -183,3 +183,6 @@ docker logs
 ## Step 4: Post-Setup Configuration
 
 After running the firmware, you need to configure the gateway by setting WiFi credentials, a wallet address, and inverter settings. You can do this by using the [srcful-configurator](https://configurator.srcful.io/) tool. Not that the configurator currently only work on Android, Windows, MacOS and linux. The configurator does not work on iPhones.
+
+If you are on a `Rak Hotspot Miner V2` bluetooth connection will be available for 3 minutes after services are started or after double clicking the gateway button. The helium bluetooth is activated by long pressing the same button.
+
