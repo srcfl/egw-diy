@@ -30,11 +30,13 @@ Use the Raspberry Pi Imager to:
 
 ## Step 2: Setting Up the Raspberry Pi
 
-### Configure Your Raspberry Pi
+### Configure and Update Your Raspberry Pi
+To set up locale, and timezone, run:
+```shell
+sudo raspi-config`
+```
 
-- Run `sudo raspi-config` to set up locale, and timezone.
-
-### Update Your Raspberry Pi
+Time to update Your Raspberry Pi, run:
 
 ```shell
 sudo apt-get update && sudo apt-get upgrade -y
