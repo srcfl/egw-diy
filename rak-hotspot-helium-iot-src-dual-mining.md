@@ -33,7 +33,7 @@ Use the Raspberry Pi Imager to:
 ### Configure and Update Your Raspberry Pi
 To set up locale, and timezone, run:
 ```shell
-sudo raspi-config`
+sudo raspi-config
 ```
 
 Time to update Your Raspberry Pi, run:
