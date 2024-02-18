@@ -62,7 +62,7 @@ sudo raspi-config
 Next, if you are on a `Rak Hotspot Miner V2`, we need to configure the SPI device to use only one channel chip select (cs). We do this by editing the boot configuration Run:
 
 ```shell
-sudo nano /boot/config.txt
+sudo nano /boot/firmware/config.txt
 ```
 
 and add the following line to the file 
