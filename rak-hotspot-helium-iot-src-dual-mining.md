@@ -182,7 +182,9 @@ To run the firmware in the background (detached), add the `-d` flag:
 docker compose -f compose-rak.yml up -d
 ```
 
-You can then check the logs for any errors:
+You should now be able to visit your gateway in a web browser using the gatway ip address, port `80` sould show the SRC miner and port `8080` will show the Helium miner.
+
+If things are strange you can then check the logs for any errors:
 ```shell
 docker logs
 ```
