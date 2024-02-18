@@ -73,7 +73,12 @@ dtoverlay=spi0-1cs
 
 Press `ctrl+s` to save and then `ctrl+x` to exit.
 
-Restart your Raspberry Pi after the update by running `sudo reboot` and then log in again using ssh.
+Restart your Raspberry Pi after the update by running:
+```shell
+sudo reboot
+```
+
+then log in again using ssh.
 
 ### Install Docker
 
