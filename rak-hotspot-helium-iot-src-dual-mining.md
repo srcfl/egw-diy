@@ -44,6 +44,8 @@ Restart your Raspberry Pi after the update by running `sudo reboot` and then log
 
 ### Enable i2c and SPI for Secure Element
 
+Note The SPI parts are only needed if you run `Rak Hotspot Miner V2` as it has a radio module that is needed for communication.
+
 ```shell
 sudo raspi-config
 ```
@@ -55,13 +57,13 @@ sudo raspi-config
 - Select `Yes` to enable the SPI interface.
 - Select `Finish` to exit the configuration tool.
 
-Next, we need to configure the SPI device to use only one channel chip select (cs). Run:
+Next, if you are on a `Rak Hotspot Miner V2`, we need to configure the SPI device to use only one channel chip select (cs). We do this by editing the boot configuration Run:
 
 ```shell
-sudo nano /boot/firmware/config.txt
+sudo nano /boot/config.txt
 ```
 
-Add the following line to the file 
+and add the following line to the file 
 
 ```shell
 dtoverlay=spi0-1cs
@@ -135,7 +137,11 @@ git clone https://github.com/srcfl/srcful-gateway.git
 
 
 
-You are soon there! Now we are ready to start the gateway! These steps should be repeated every time you want to start the gateway. First you need to be in the correct directory and make sure you have the latest version of the firmware:
+You are soon there, now we are ready to start the gateway!  
+
+NOTE: These steps should be repeated **every time** you want to start the gateway.
+
+First you need to be in the correct directory and make sure you have the latest version of the firmware:
 
 ```shell
 cd srcful-gateway
@@ -169,6 +175,11 @@ To run the firmware in the background (detached), add the `-d` flag:
 docker compose -f compose-rak.yml up -d
 ```
 
+You can then check the logs for any errors:
+```shell
+docker logs
+```
+
 ## Step 4: Post-Setup Configuration
 
-- After running the firmware, you need to configure the gateway by setting WiFi credentials, a wallet address, and inverter settings. You can do this by using the [srcful-configurator](https://configurator.srcful.io/) tool. Not that the configurator currently only work on Android, Windows, MacOS and linux. The configurator does not work on iPhones.
+After running the firmware, you need to configure the gateway by setting WiFi credentials, a wallet address, and inverter settings. You can do this by using the [srcful-configurator](https://configurator.srcful.io/) tool. Not that the configurator currently only work on Android, Windows, MacOS and linux. The configurator does not work on iPhones.
