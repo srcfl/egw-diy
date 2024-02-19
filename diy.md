@@ -1,5 +1,12 @@
 # Build your own Srcful Energy Gateway
 
+---
+**IMPORTANT**
+
+You will need a compatible inverter to connect your Energy Gateway. Please see our list of compatible inverters: https://docs.srcful.io/energy-gateway/compatible-inverter/
+
+---
+
 To build your own Srcful Energy Gateway, you will need the following hardware:
 
 - x1 Raspberry Pi 4 (4GB or 8GB)

@@ -4,6 +4,13 @@ This repository contains the Srcful Energy Gateway firmware and documentation. T
 
 ## Getting Started
 
+---
+**IMPORTANT**
+
+You will need a compatible inverter to connect your Energy Gateway. Please see our list of compatible inverters: https://docs.srcful.io/energy-gateway/compatible-inverter/
+
+---
+
 <div align="center" width="100%">
 <center>
   <table style="border-collapse: collapse" width="150%">

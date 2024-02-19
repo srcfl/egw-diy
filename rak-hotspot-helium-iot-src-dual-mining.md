@@ -4,6 +4,13 @@ This guide will help you get started with the Srcful Energy Gateway. Depending o
 
 This guide is for installing the dual mining firmware on a `Rak Hotspot Miner V2`. It is recommended that you first run the miner with the normal firmware and complete the installation process including checking that it is active in the Helium network before you proceed.
 
+---
+**IMPORTANT**
+
+You will need a compatible inverter to connect your Energy Gateway. Please see our list of compatible inverters: https://docs.srcful.io/energy-gateway/compatible-inverter/
+
+---
+
 ## Step 1: Preparing the Raspberry Pi
 
 ### Select a Lightweight Linux Distro
