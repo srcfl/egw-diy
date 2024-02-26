@@ -69,4 +69,4 @@ Some of the images in this repository are maintained by [NebraLtd](https://githu
 
 ## License
 
-This repository is licensed under the [LICENSE NAME](#). Please read the license agreement carefully before using or contributing to this project.
+This repository is licensed under the [MIT License](LICENSE). Please read the license agreement carefully before using or contributing to this project.
