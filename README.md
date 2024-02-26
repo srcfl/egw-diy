@@ -28,7 +28,7 @@ You will need a compatible inverter to connect your Energy Gateway. Please see o
             style="width=50% height=50%"
           /><br />
           <p align="center">
-            Srcful PoS compatible.<br /><br /><br />
+            Srcful Proof-of-Source compatible.<br /><br /><br />
             <a href="diy.md">Get started</a>
           </p>
         </center>
@@ -45,7 +45,7 @@ You will need a compatible inverter to connect your Energy Gateway. Please see o
             style="width=50% height=50%"
           /><br />
           <p align="center">
-            Srcful PoS and Helium PoC compatible.<br /><br /><br />
+            Srcful Proof-of-Source and Helium PoC compatible.<br /><br /><br />
             <a href="rak-hotspot-helium-iot-src-dual-mining.md">Get started</a>
           </p>
         </center>
