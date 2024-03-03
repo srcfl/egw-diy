@@ -2,6 +2,9 @@
 
 This repository contains the Srcful Energy Gateway firmware and documentation. The firmware is compatible with the [Srcful PoS](https://docs.srcful.io/getting-started/using#proof-of-source) and [Helium PoC](https://docs.helium.com/iot/proof-of-coverage/).
 
+
+You also need ensure that a modbus TCP/IP connection can be established to your inverter. You do this by following this [tutorial](test_con.md). 
+
 ## Getting Started
 
 ---
